@@ -1,0 +1,20 @@
+<div class="ekart--search--product">
+    <!-- two way data binding -->
+    <!-- <input type="text" class="ekart--search--product--input" (input)="updateSearchtext($event)" [value]="searchText" placeholder="Search for products"  /> -->
+     <!-- below line remove because of to develop when we clicked serach button to  start the searching -->
+    <!-- <input type="text" class="ekart--search--product--input" [(ngModel)]="searchText" placeholder="Search for products" (input)="onSearchTextChange()" /> -->
+        <!-- ====template reference variable==== -->
+    <input type="text" class="ekart--search--product--input" placeholder="Search for products" #searchInput /> 
+      
+    <!-- <button [ngClass]="{'btn-search':searchText,'btn-search-disable':!searchText}" [disabled]="!searchText">Search </button> -->
+    
+    <!-- <button (click)="setSearchText(searchInput)">Search</button> -->
+      <!-- ===view Child decorator -->
+    <button (click)="setSearchText()">Search</button>
+</div>
+<div class="ekart-search-result-for">
+<p *ngIf="searchText.length > 0">
+    <strong >Search result for:</strong>
+   {{searchText}}
+</p>
+</div>

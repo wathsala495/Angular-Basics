@@ -1,0 +1,12 @@
+.ekart--top--bar{
+    display: flex; 
+    justify-content: end;
+    padding-right: 200px;
+    gap: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+ }
+ .ekart--top--bar a{
+    text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.ekart--product--item{
+    box-shadow: inset 0px 0px 0px 1px #ccc;
+    margin: 10px;
+}
+.ekart-on-sale-tag{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: end;
+    width: 50%;
+}
+.ekart--add-to--whishlist{
+    display: flex;
+    justify-content: space-between;
+
+}

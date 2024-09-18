@@ -1,0 +1,28 @@
+.ekart--header{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    
+}
+
+.ekart-logo{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: "Concert One", sans-serif;
+}
+
+
+.ekart--bottom--bar{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.ekart-search-box{
+    border: none;
+    background-color: rgb(240, 230, 230);
+    padding: 4px;
+}

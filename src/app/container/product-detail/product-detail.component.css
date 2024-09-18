@@ -1,0 +1,10 @@
+.product-detail{
+    display: flex;
+    inset: 0;
+    position: fixed;
+    justify-content: end;
+    align-items: center;
+    /* background-color: white; */
+
+
+}

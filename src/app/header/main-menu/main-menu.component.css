@@ -1,0 +1,9 @@
+.ekart-menu{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    padding-left: 400px;
+}
+.ekart-menu a{
+    text-decoration: none;
+}
